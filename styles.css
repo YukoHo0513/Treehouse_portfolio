@@ -76,10 +76,10 @@ header .profile-image {
   height: 170px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: box-shadow 0.75s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  box-shadow: yellow 0px 22px 70px 4px;
 }
 .tag {
   background-color: #efefef;
